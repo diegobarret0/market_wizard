@@ -1,0 +1,10 @@
+ccxt
+python-dotenv
+
+pandas
+numpy
+scikit-learn
+scipy
+
+streamlit
+plotly

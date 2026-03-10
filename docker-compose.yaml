@@ -1,0 +1,10 @@
+services:
+  analyzer:
+    build: .
+    ports:
+      - "8501:8501" # Mapea el puerto de Streamlit
+    volumes:
+      - .:/app    # Sincroniza tu carpeta actual con el contenedor
+    env_file:
+      - .env      # Carga automáticamente tus variables de entorno
+    restart: always

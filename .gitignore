@@ -1,0 +1,22 @@
+# --- Entorno Virtual ---
+venv/
+env/
+.env
+
+# --- Credenciales y Llaves ---
+*.pem
+*.key
+*.pub
+
+# --- Archivos de Sistema y Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+.ipynb_checkpoints/
+
+# --- Docker y Datos ---
+.docker/
+data/cache/
+*.log
