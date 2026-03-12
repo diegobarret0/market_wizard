@@ -20,3 +20,4 @@ __pycache__/
 .docker/
 data/cache/
 *.log
+*.excalidraw

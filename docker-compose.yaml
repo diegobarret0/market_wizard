@@ -7,4 +7,4 @@ services:
       - .:/app    # Sincroniza tu carpeta actual con el contenedor
     env_file:
       - .env      # Carga automáticamente tus variables de entorno
-    restart: always
+    command: python app.py
